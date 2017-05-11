@@ -8,22 +8,26 @@
 	<title>Tebak Gambar</title>
 
 	<link href="img/icon.png" rel="shortcut icon" type="image/png">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/stylegame.css">
+	<script type="text/javascript" src="js/stylegame.js"></script>
 	<script type="text/javascript" src="js/jquery-3.2.1.js"></script>
-	<script type="text/javascript" src="js/homepage.js"></script>
 
 </head>
 
 <body>
-	<center id="start">
-		<h1>SELAMAT DATANG DI</h1>
-		<h1>TEBAK GAMBAR BUAH</h1> 
-	</center>
+	<div class="menubar">
+		<hr>
+		<a href="Tebak Gambar.html"><button class="homepage"><b>Halaman Utama</b></button></a>
+		<button class="close"><b>Keluar</b></button>
+		<hr>
+	</div>
 
 	<center>
-		<button id="buttonplay" type="button"><b>Main Sekarang</b></button> <br>
-		<button id="buttonhelp" type="button"><b>Bantuan</b></button>
+		<canvas id="canvas" width="1330" height="555"></canvas>
+
 	</center>
+	
+	
 </body>
 
 </html>

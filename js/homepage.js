@@ -4,6 +4,6 @@ window.onload = function () {
   }
 
   document.getElementById('buttonhelp').onclick = function() {
-    alert("Tebaklah nama buah dari gambar yang diberikan dengan mengklik tombol-tombol huruf yang disediakan. \n Selamat Bermain! ^_^");
+    alert("Tebaklah nama buah dari gambar yang ditunjukan dengan mengklik tombol-tombol huruf yang disediakan. \n Selamat Bermain! ^_^");
   }
 }

@@ -69,14 +69,15 @@ window.onload = function () {
     showLives.innerHTML = "You have " + lives + " lives";
     if (lives < 1) {
       showLives.innerHTML = "Game Over";
-      alert("Anda telah kalah. Silahkan coba lagi!");
+      alert("Anda telah kalah. Silahkan coba lagi!");      
+      window.location.href="halamangame.html";
       reset();
     }
     for (var i = 0; i < geusses.length; i++) {
       if (counter + space === geusses.length) {
         showLives.innerHTML = "Tepat Sekali!";
         alert("Jawaban Anda tepat. Silahkan klik \"Ok\" untuk lanjut!");
-        window.location.href = "halamangame2.html";
+        window.location.href = "halamangame3.html";
       }
     }
   }
@@ -108,7 +109,7 @@ window.onload = function () {
   // Play
   play = function () {
     categories = [
-        ["semangka"]
+        ["jeruk"]
     ];
 
     chosenCategory = categories[Math.floor(Math.random() * categories.length)];

@@ -4,7 +4,6 @@ html {
 body {
   background-image: url("../img/background2.jpg");
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-  color:$white;
   height:100%;
   text-align:center;
   font-size:18px;
@@ -29,8 +28,6 @@ img {
 
 #alphabet {
   margin:15px auto;
-  margin-right: 0%;
-  margin-left: 0%;
   padding-bottom: 100px;
   padding-top: 0px;
   padding-right: 13px;
@@ -58,7 +55,7 @@ img {
 
 #alphabet li:active {
   background-color: #ff6666;
-  color: #ff6666;
+  color: white;
 }
 
 #my-word {
@@ -83,6 +80,7 @@ img {
 
 #mylives{
   font-size:25px;
+  font-weight: bold;
   text-align:center;
   display:block;
   margin-top: 5px;

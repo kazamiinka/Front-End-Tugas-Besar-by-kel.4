@@ -76,7 +76,7 @@ window.onload = function () {
     for (var i = 0; i < geusses.length; i++) {
       if (counter + space === geusses.length) {
         showLives.innerHTML = "Tepat Sekali!";
-        alert("Selamat Anda telah menyelesaikan game tebak gambar ini! \nTerima kasih atas partisipasinya");
+        alert("Selamat Anda telah menyelesaikan game tebak gambar ini! \nTerima kasih atas partisipasinya.");
         window.location.href = "Tebak Gambar.html";
       }
     }

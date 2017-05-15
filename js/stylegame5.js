@@ -16,10 +16,6 @@ window.onload = function () {
 
   // Get elements
   var showLives = document.getElementById("mylives");
-
-  /* var buttonhome.onclick = function(){
-    window.location.href="Tebak Gambar.html";
-  } */
   
   // create alphabet ul
   var buttons = function () {

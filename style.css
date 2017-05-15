@@ -1,0 +1,65 @@
+html {
+	background-color: #ff6666;	
+}
+
+body {
+	background-image: url("../img/background.jpg");
+	background-size: 100% 100%;
+	min-height: 100%;
+  	min-width: 1024px;
+  	width: 80%;
+  	height: auto;
+  	position: fixed;
+  	top: 0;
+  	left: 0;
+  	margin: auto;
+  	margin-top: 0%;
+  	margin-left: 10%;
+}
+
+#start {
+	font-family: "GeoSlab703 Md BT";
+	font-size: 19px;
+	text-align: center;
+	color: #cc0099;
+	border: 2px solid gray; 
+	outline-color: #ffd9b3;
+	outline-style: outset;
+	border-radius: 5px;
+	background-color: #FFEFD5;
+	opacity: 0.7;
+	margin-right: 20%;
+	margin-left: 20%;
+	margin-top: 10px;
+}
+
+#buttonplay, #buttonhelp {
+	padding: 15px 25px;
+	font-family: arial;	
+	cursor: pointer;	
+	background-color: #990033;
+	border: none;
+	border-radius: 10px;
+	box-shadow: 0 7px #999;	
+	color: #fff;
+	
+}	
+
+#buttonplay{
+	font-size: 15px;
+	margin-top: 9%;
+}
+
+#buttonhelp {
+	font-size: 14px;
+	margin-top: 4%;
+}
+
+#buttonplay:hover, #buttonhelp:hover{
+	background-color: #660000;
+}
+
+#buttonplay:active, #buttonhelp:active {
+  background-color: #ff6666;
+  box-shadow: 0 3px #666;
+}

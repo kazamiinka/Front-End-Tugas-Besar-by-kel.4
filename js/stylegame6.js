@@ -77,7 +77,7 @@ window.onload = function () {
       if (counter + space === geusses.length) {
         showLives.innerHTML = "Tepat Sekali!";
         alert("Jawaban Anda tepat. Silahkan klik \"Ok\" untuk lanjut!");
-        window.location.href = "halamangame6.html";
+        window.location.href = "halamangame5.html";
       }
     }
   }
@@ -109,7 +109,7 @@ window.onload = function () {
   // Play
   play = function () {
     categories = [
-        ["anggur"]
+        ["durian"]
     ];
 
     chosenCategory = categories[Math.floor(Math.random() * categories.length)];
